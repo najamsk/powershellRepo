@@ -12,4 +12,3 @@ $SMTPClient.EnableSsl = $true
 $SMTPClient.Credentials = New-Object System.Net.NetworkCredential("gmailUser", "gmailPasswor"); 
 $SMTPClient.Send($EmailFrom, $EmailTo, $Subject, $Body)
 
-
